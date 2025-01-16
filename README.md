@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in COBOL PERFORM loops. The bug.cob file contains the erroneous code, while bugSolution.cob provides the corrected version.  The error arises from an incorrect loop termination condition that causes the loop to execute one iteration fewer (or more) than expected. This can lead to subtle, hard-to-find bugs in larger programs.
